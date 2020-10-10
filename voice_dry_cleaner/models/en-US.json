@@ -1,0 +1,404 @@
+{
+    "invocation": "dublin cleaners", 
+    "intents": [
+        {
+            "inputs": [
+                {
+                    "type": {
+                        "dialogflow": "@sys.given-name", 
+                        "alexa": "AMAZON.US_FIRST_NAME"
+                    }, 
+                    "name": "name"
+                }
+            ], 
+            "name": "FirstNameIntent", 
+            "phrases": [
+                "i go by {name}", 
+                "call me {name}", 
+                "my name is {name}", 
+                "{name}"
+            ]
+        }, 
+        {
+            "inputs": [
+                {
+                    "type": {
+                        "dialogflow": "@sys.given-name", 
+                        "alexa": "AMAZON.US_FIRST_NAME"
+                    }, 
+                    "name": "name"
+                }, 
+                {
+                    "type": {
+                        "dialogflow": "@sys.phone-number", 
+                        "alexa": "AMAZON.PhoneNumber"
+                    }, 
+                    "name": "phoneNumber"
+                }, 
+                {
+                    "type": {
+                        "alexa": "AMAZON.Person",
+                        "dialogflow": "@sys.person"
+                    }, 
+                    "name": "fullName"
+                }
+            ], 
+            "name": "NotifyArrivalIntent", 
+            "phrases": [
+                "on my way", 
+                "i am on my way", 
+                "on way", 
+                "on the way", 
+                "i'm on the way", 
+                "omw", 
+                "i am on the way", 
+                "on me way", 
+                "in the way", 
+                "in my way", 
+                "on way", 
+                "in way",
+                "am on my way", 
+                "let them know I am on my way", 
+                "I am on my way", 
+                "I'm on my way", 
+                "I am driving to the store", 
+                "I am driving their way now", 
+                "I am driving to their location", 
+                "let them know I am on my way", 
+                "let them know I'm on my way", 
+                "let the cleaner know I am on my way", 
+                "let the cleaner know I'm on my way", 
+                "{name} is on my way", 
+                "{fullName} is on my way", 
+                "{phoneNumber} is on my way", 
+                "{name} is on the way", 
+                "{fullName} is on the way", 
+                "{phoneNumber} is on the way", 
+                "tell the cleaner Im on my way", 
+                "tell cleaner {name} is on the way", 
+                "my number is {phoneNumber} and I am on the way"
+            ]
+        }, 
+        {
+            "phrases": [
+                "on demand", 
+                "on demand pickup", 
+                "on demand pick up",
+                "place pickup order", 
+                "on demand pickup order", 
+                "request on demand", 
+                "request pickup",
+                "pick up request", 
+                "come get it", 
+                "come to my house", 
+                "get over here", 
+                "pickup my laundry", 
+                "pick up my dry cleaning", 
+                "add me to pickup route", 
+                "place pickup request", 
+                "pickup my clothes", 
+                "come to my house",
+                "free pick up from my house",
+                "free dry cleaning pick up",
+                "free pick up",
+                "dry cleaning pick up",
+                "free pickup",
+                "pick up"
+            ], 
+            "name": "PickupRequestIntent"
+        },
+        {
+            "inputs": [
+                {
+                    "type": {
+                        "dialogflow": "@sys.phone-number", 
+                        "alexa": "AMAZON.PhoneNumber"
+                    }, 
+                    "name": "phoneNumber"
+                }
+            ], 
+            "name": "PhoneNumberIntent", 
+            "phrases": [
+                "it is {phoneNumber}", 
+                "my phone number is {phoneNumber}", 
+                "my number is {phoneNumber}", 
+                "{phoneNumber}"
+            ]
+        }, 
+        {
+            "inputs": [
+                {
+                    "type": {
+                        "dialogflow": "@sys.street-address", 
+                        "alexa": "AMAZON.SearchQuery"
+                    }, 
+                    "name": "addressLine"
+                }
+            ], 
+            "name": "AddressEntryIntent", 
+            "phrases": [
+                    "my address is {addressLine}",
+                    "I live {addressLine}",
+                    "I live at {addressLine}",
+                    "My street address is {addressLine}",
+                    " my address is {addressLine}",
+                    "at {addressLine}"
+            ]
+        },  
+        {
+            "inputs": [], 
+            "name": "NameIsWrong", 
+            "phrases": [
+                "It was my name", 
+                "name", 
+                "I need to put it under someone else", 
+                "can I give you a different name", 
+                "I need to re enter my name", 
+                "you got the wrong name", 
+                "my name is wrong"
+            ]
+        }, 
+        {
+            "inputs": [], 
+            "name": "PhoneNumberIsWrong", 
+            "phrases": [
+                "It was my phone number", 
+                "my phone is not right", 
+                "my number is wrong", 
+                "you got the wrong phone number", 
+                "contact information", 
+                "phone number"
+            ]
+        },
+        {
+            "inputs": [], 
+            "name": "AddressIsWrong", 
+            "phrases": [
+                "incorrect address", 
+                "address is wrong", 
+                "address", 
+                "you heard my address wrong", 
+                "My address is wrong"
+            ]
+        }, 
+        {
+            "inputs": [], 
+            "name": "NoteIsWrong", 
+            "phrases": [
+                "incorrect note", 
+                "special note is wrong", 
+                "note is wrong", 
+                "special note", 
+                "my special note is wrong", 
+                "extra note is wrong", 
+                "note details are wrong", 
+                "note", 
+                "my note is wrong", 
+                "I need to change my note"
+            ]
+        },        {
+                "name": "WhoCreatedVoiceDryCleanerDotComIntent",
+                "phrases": ["who created voice dry cleaner dot com"]
+            },        {
+                "name": "WhereIsVoiceFirstAILocatedIntent",
+                "phrases": ["where is voice first a. i. located","where is voice first a I located","where is voice first a.i. located"]
+            },        {
+                "name": "HowDoIContactTheCreatorsIntent",
+                "phrases": ["how do i contact the creators"]
+            },        {
+                "name": "WhatTypesOfClothesShouldBeDryCleanedIntent",
+                "phrases": ["what types of clothes should be dry cleaned"]
+            },        {
+                "name": "WhyShouldIDryCleanMyClothesIntent",
+                "phrases": ["why should i dry clean my clothes","is there a reason to dry clean my clothes"]
+            },        {
+                "name": "WhatIsStarchIntent",
+                "phrases": ["what is starch","tell me more about starch"]
+            }, {
+            "name": "HelpIntent",
+            "phrases": [
+                "help",
+                "please help",
+                "help me",
+                "please help me",
+                "can you help me",
+                "need help",
+                "I need help",
+                "assistance",
+                "need assistance",
+                "I do not know"
+            ]
+        },
+                {
+            "phrases": [
+                "yes", 
+                "yeah", 
+                "ok", 
+                "sure"
+            ], 
+            "name": "YesIntent"
+        }, 
+        {
+            "phrases": [
+                "no", 
+                "nope", 
+                "nah"
+            ], 
+            "name": "NoIntent"
+        }, 
+        {
+            "inputs": [], 
+            "name": "DeleteUserIntent", 
+            "phrases": [
+                "delete my information", 
+                "delete all of my information", 
+                "delete me from the syste", 
+                "delete all of my data", 
+                "delete my account information", 
+                "delete my account", 
+                "delete user information",
+                "delete my account from the system", 
+                "delete my account from your system", 
+                "erase all of my data", 
+                "delete all information associated with my account",
+                "delete user",
+                "delete",
+                "delete my info",
+                "delete me",
+                "delete user info"
+            ]
+        },
+        {
+            "inputs":[
+                {
+                    "name":"question",
+                    "type": {
+                        "alexa":"AMAZON.SearchQuery",
+                        "dialogflow":"@sys.any"
+                    }
+                }
+            ],
+            "name":"CaptureIntent",
+            "phrases": [
+                " {question}"
+            ]
+        }
+    ],
+    "alexa": {
+        "prompts": [
+            {
+                "variations": [
+                    {
+                        "type": "PlainText", 
+                        "value": "I have your address as {address} . Is this correct?"
+                    }
+                ], 
+                "id": "Confirm.Intent.457087248324"
+            }, 
+            {
+                "variations": [
+                    {
+                        "type": "PlainText", 
+                        "value": "I have your address as {address} . Is this correct?"
+                    }
+                ], 
+                "id": "Confirm.Intent.891463556905"
+            }
+        ], 
+        "dialog": {
+            "intents": [
+                {
+                    "slots": [
+                        {
+                            "type": "AMAZON.StreetName", 
+                            "prompts": {}, 
+                            "confirmationRequired": false, 
+                            "name": "address", 
+                            "elicitationRequired": false
+                        }
+                    ], 
+                    "confirmationRequired": true, 
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.457087248324"
+                    }, 
+                    "name": "PhoneIntent"
+                }, 
+                {
+                    "slots": [
+                        {
+                            "type": "AMAZON.US_FIRST_NAME", 
+                            "prompts": {}, 
+                            "confirmationRequired": false, 
+                            "name": "name", 
+                            "elicitationRequired": false
+                        }, 
+                        {
+                            "type": "AMAZON.StreetName", 
+                            "prompts": {}, 
+                            "confirmationRequired": false, 
+                            "name": "address", 
+                            "elicitationRequired": false
+                        }
+                    ], 
+                    "confirmationRequired": true, 
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.891463556905"
+                    }, 
+                    "name": "AddressIntent"
+                }
+            ]
+        }, 
+        "interactionModel": {
+            "languageModel": {
+                "intents": [
+                    {
+                        "name": "AMAZON.CancelIntent", 
+                        "samples": []
+                    }, 
+                    {
+                        "name": "AMAZON.HelpIntent", 
+                        "samples": [
+                            "learn more", 
+                            "i want to learn more", 
+                            "tell me more"
+                        ]
+                    }, 
+                    {
+                        "name": "AMAZON.StopIntent", 
+                        "samples": [
+                            "stop"
+                        ]
+                    }, 
+                    {
+                        "name": "AMAZON.YesIntent", 
+                        "samples": []
+                    }, 
+                    {
+                        "name": "AMAZON.NoIntent", 
+                        "samples": []
+                    }
+                ]
+            }
+        }
+    }, 
+    "dialogflow": {
+        "intents": [
+            {
+                "auto": true, 
+                "fallbackIntent": true, 
+                "name": "Default Fallback Intent", 
+                "webhookUsed": true
+            }, 
+            {
+                "auto": true, 
+                "webhookUsed": true, 
+                "events": [
+                    {
+                        "name": "WELCOME"
+                    }
+                ], 
+                "name": "Default Welcome Intent"
+            }
+        ]
+    }
+}

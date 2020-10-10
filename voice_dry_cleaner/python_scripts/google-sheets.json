@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "voicedrycleanerdotcom",
+  "private_key_id": "a345349994e54c08857dbd71d63e6ede0057ba18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC7R674nJsn/19k\nSJBKCBCmo6osw1n3NpmI6RoJNkfbuBeGL+U39AYwZPonS+YTLHZOTTVVrpaZrBDT\nCnDDrLL/OWnZK4fv8j9wG1AXg3vTJRUYspIwhtYUfaVuwx5ccYAcgfm4eI9pbdly\ns8kCu+FTAouK9r+fhAZfRHG/ocwNQ2MVlv0VkpXyHmTGXO4f3z3SGLrOJEP1ohXR\nSYxnpRvT7mnl+r023CpidnR8qm3zoYAijLLsrW9hxDkrngtvjz9eWrIx2Ffm7sha\nBRbh6XxcBP2rmQiyV83BloNy9wgDEtXP2+HacxafnQv8VGqKzhGXm8UZIHnB+MUm\npT+GlWl/AgMBAAECggEAT1JnS6mZFfHWB3Wsl46e7tW3SEpdmpWnphOFEY3KFcf9\nPrqejXpv/KNoSKifBFP6r+OHyYivBNuaLKjpZheJoQxCRtdnNjwWnncTD0KDecTl\nEJbh0Gfr2LX3EdjWzTTNnEV47acypub+CNUZOG03XJ9hVzR3qSqUQFmPDCmNcbf1\nT/AJUgfecdT01SKcVVazvl8QFOE+gNzH3QtGyIIWqhdEHuYk5ypQa9fH6h9/PjPF\nBzTGu4VVOdQFqaUnmK6Xnfa8Lj6Dl6QAab/0Dqkh23sSulih6h77pzqh55CtOx6E\nZKjsDUAm0w+KVNW5SQnir/3WgfdHGhyjkxhYzW06EQKBgQDmdFWHEOyQ6s67FBxN\nK/bpFnzbmBFMHevnUYuMdJpkS4Z0lFZCSC/ARm1uroh0Rs38kURRQhHAgP+j5ZH+\nXOGzTMnKmIqV1TZIJFfd4eS99L8ZKVNyQjkX891UzUWX63IyblMofULnwy5mZdRM\nurVc05r14JMyil4N84ALDEkmewKBgQDQCi15K/GyFWPtjhrpz77bOZAxJSEVl/jM\ne7EzUjE4NFV0sxE3UZ7TAWrEAyZCqk7v+p/sNIDbZNLT0vqSc4NcQPLF8iXFQkDr\np6VPvLz4DqdttYlocoJx8SdhpW31Tg+4I6zoKGC/lr4+QTpkiv2Ah7g5JzJtEn7B\ndS38XqX7zQKBgQCmA0oViYiRgMU6GWul4DT3hp6dZneXeLqXIbRAk0MhWxLZ6n4V\nM4FKprFwmURtVxBOkKtBSjIVlhgSjm9UaL6idn+rdaXn9/cpkxzFF1S7zpLXYmDd\nn30XlzJrQ5CNtyvFzpoTQeEvqfhEBbkhKSM7Yqhv1b7UGr9Ul4Q28TvE/wKBgQCG\nDRjSDEvYGUpjhv62jCOJ9SSBVlBkLqGleUpsLFkEw0wRP1UnlRNHGZGnLfRYXo8w\nuQiVVht1wxjKXxcQiRgquLr2a5qE6bUVY9f0ckQ9fovJ+IDK6YY+T0q187fPqfYd\nC/fdPC9jJIn/aV5r7Nd+G3XMdgJbH+DHXW89P+uqPQKBgQDa6aPB9NXKobB2sXqE\nLazgDm/aOQr8exTN/EQ75JdZ4npl4NrhIdKcuENz6SIX2hkRN9rQJWppz+LjnI0q\nZ+jHbujqAB1RDizd341DI/BJd4NjF587fhfUta/7RQhhHvql5Obiw2qfNNYub6L9\naXAk2olPSOKjoDIofAjIaWKXwg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "voicedrycleanerdotcom@appspot.gserviceaccount.com",
+  "client_id": "118033794056725731196",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voicedrycleanerdotcom%40appspot.gserviceaccount.com"
+}
