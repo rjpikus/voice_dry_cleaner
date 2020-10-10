@@ -1,6 +1,4 @@
-## Marketing
-.
-{Features}
+## {Features}
 - Order Placing
 - Text/Email Comm
 - Pickup & Delivery
