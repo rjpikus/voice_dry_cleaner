@@ -1,3 +1,14 @@
+##Marketing
+{Features}
+Order Placing
+Text/Email Comm
+Pickup & Delivery
+Gen Info/Bus Hours
+FAQ, Capture Intent 
+Build Voice by Voice
+Geo-Loc. Store Finder
+Credit Card Transactions
+
 ## Getting Started
 .
 1. Install \newline
